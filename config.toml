@@ -1,0 +1,37 @@
+baseURL = "http://mikadore.eu/"
+languageCode = "en-us"
+title = "Mikadore's Personal Site"
+theme = "hugo-coder"
+
+[params]
+  author = "Mikdore"
+  info = "Hey, I'm Mikdore. I do backend stuff."
+  avatarURL = "/img/pfp.jpg"
+  favicon_32 = "/img/favicon.ico"
+  favicon_16 = "/img/favicon.ico"
+  math = true
+  colorScheme = "dark"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa fa-github"
+  weight = 1
+  url = "https://github.com/Mikadore"
+
+[[params.social]]
+  name = "DEV"
+  icon = "fa fa-dev-to"
+  weight = 2
+  url = "https://dev.to/mikadore"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/xxmikdorexx"
+
+[[params.social]]
+    name = "Email"
+    icon = "fa fa-envelope"
+    weight = 4
+    url = "mailto:admin@mikadore.eu"
